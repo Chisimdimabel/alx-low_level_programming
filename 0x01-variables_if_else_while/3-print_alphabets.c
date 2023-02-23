@@ -3,19 +3,25 @@
 #include <time.h>
 
 /**
- * main - entry point
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	char ch = 'a';
+	int Sch = 'a';
+	int Bch = 'A';
 
-	while (ch <= 'z')
+	while (Sch <= 'z')
 	{
-		putchar(ch);
-		ch++;
+		putchar(Sch);
+		Sch++;
+	}
+	while (Bch <= 'Z')
+	{
+		putchar(Bch);
+		Bch++;
 	}
 	putchar('\n');
 	return (0);
